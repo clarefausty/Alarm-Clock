@@ -1,0 +1,47 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1d3557;
+}
+.current-time-display {
+    background: #457b9d;
+    padding: 0.25em 0.5em;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size:3em;
+}
+.alarm-time-display {
+    border-radius: 5px;
+    color: #f1faee;
+    font-weight: bolder;
+    font-size:3em;
+}
+input, button{
+    font-family: inherit;
+    font-size: 2em;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+}
+button{
+    display: block;
+    width: 90%;
+    margin: 1em;
+    background: #a8dadc;
+    text-transform: uppercase;
+}
+button:active{
+    transform: scale(0.96);
+}
+label{
+    color: #f1faee;
+    font-size: large;
+    font-weight: bolder;
+}
+.alarm-message-display{
+    color:#f1faee;
+    font-size: 2em;
+    font-weight: bolder;
+}

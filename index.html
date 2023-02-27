@@ -1,0 +1,42 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="index.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="flex-container">
+        <p id="current-time-display" class="current-time-display">-- : -- : --</p>
+        <p id="alarm-time-display" class="alarm-time-display">-- : -- : --</p>
+        <p id="alarm-message-display" class="alarm-message-display"></p>
+        <form>
+            <label for="hours-input" class="label">Hours</label>
+            <input
+            id="hours-input"
+            name="hour"
+            placeholder="00"
+            min="0"
+            max="24"
+            type="number"
+            required>
+            <label for="minutes-input" class="label">Minutes</label>
+            <input
+            id="minutes-input"
+            name="minutes"
+            placeholder="00"
+            min="0"
+            max="60"
+            type="number"
+            required>
+           
+
+                <button type="submit" id="set-alarm-btn">Set Alarm</button>
+                <button type="pause-alarm" id="set-alarm-btn">Stop Alarm</button>
+           
+
+
+            <script src="index.js"></script>
+        </form>
+    </div>
