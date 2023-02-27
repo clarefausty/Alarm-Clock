@@ -31,7 +31,7 @@ input, button{
 button{
     display: block;
     width: 90%;
-    margin: 1em;
+    margin: 2em;
     background: #a8dadc;
     text-transform: uppercase;
 }
